@@ -1,3 +1,17 @@
+:root{
+--primary-bgd-color:#E5E5E5;
+--primary-font-color: #2E2F42;
+--secondary-font-color: #434455;
+--accent-color: #4D5AE5;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    color:var(--primary-font-color);
+    background-color:#E5E5E5;
+}
+
 .list{
     list-style: none;
 }
@@ -6,4 +20,150 @@
     text-decoration: none;
 }
 
+/* осн цвет текста #2E2F42 */
+/* вторичн цвет текста #434455 */
+/* цвет-акцент #4D5AE5 */
+/* осн цвет фона #E5E5E5*/
 
+.logo{
+font-family: Raleway, sans-serif;
+font-size: 18px;
+font-weight: 800;
+line-height: 1.33;
+letter-spacing: 0.03em;
+text-align: left;
+}
+
+.logo-web{
+font-family: Raleway, sans-serif;
+font-size: 18px;
+font-weight: 800;
+line-height: 1.33;
+letter-spacing: 0.03em;
+text-align: left;
+color:var(--accent-color)
+}
+
+.menu-item-link{
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: left;
+}
+
+.menu-item-link:hover,
+.menu-item-link:focus{
+    color:var(--accent-color)
+}
+
+.contacts-list-item{
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+text-align: left;
+color:var(--secondary-font-color)
+}
+
+.contacts-list-item:hover,
+.contacts-list-item:focus{
+    color:var(--accent-color);
+}
+
+.hero-heading{
+font-size: 56px;
+font-weight: 700;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
+color:  #FFFFFF;
+}
+
+.order-service-btn{
+font-size: 16px;
+font-weight: 500;
+line-height: 1,5;
+letter-spacing: 0.04em;
+text-align: left;
+color: #FFFFFF;
+background-color:var(--accent-color);
+}
+
+.order-service-btn:hover,
+.order-service-btn:focus{
+    color: #FFFFFF;
+    background-color:#404BBF ;
+}
+
+.h3-title{
+font-size: 20px;
+font-weight: 600;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-align: left;
+}
+
+.section1-description{
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+text-align: left;
+color:var(--secondary-font-color)
+}
+
+.section-title{
+font-size: 36px;
+font-weight: 600;
+line-height: 1,11;
+letter-spacing: 0.02em;
+text-align: center;
+}
+
+
+
+.team-name-description{
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+text-align: center;
+color:var(--secondary-font-color);
+}
+
+.footer-descript{
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+color: #E7E9FC;
+}
+
+/* ---------PORTFOLIO --------------- */
+
+/* ---------FILTER ------------------*/
+
+.filter-btn{
+font-size: 16px;
+font-weight: 500;
+line-height: 1,5;
+letter-spacing: 0.04em;
+text-align: center;
+color:var(--accent-color);
+background-color: #E7E9FC;
+cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+
+
+.portfolio-item-text{
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+text-align: left;
+color:var(--secondary-font-color)
+}
