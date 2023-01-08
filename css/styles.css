@@ -34,7 +34,7 @@ font-size: 18px;
 font-weight: 800;
 line-height: 1.33;
 letter-spacing: 0.03em;
-color:var(--primary-font-color)
+color:var(--primary-font-color);
 }
 
 .logo-web{
@@ -43,7 +43,7 @@ font-size: 18px;
 font-weight: 800;
 line-height: 1.33;
 letter-spacing: 0.03em;
-color:var(--accent-color)
+color:var(--accent-color);
 }
 
 .menu-item-link{
@@ -51,36 +51,36 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color:var(--primary-font-color) ;
+color:var(--primary-font-color);
 }
 
 .menu-item-link:hover,
 .menu-item-link:focus{
-    color:var(--accent-color)
+    color:var(--accent-color);
 }
 
 .contacts-list-item{
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-text-align: left;
 color:var(--secondary-font-color);
 }
 
 .contacts-list-item:hover,
 .contacts-list-item:focus{
-    color:var(--accent-color)
+    color:var(--accent-color);
 }
 
-.hero-picture{
+.hero{
     background-color:var(--primary-font-color);
 }
 
-.hero-heading{
+.hero-title{
 font-size: 56px;
 font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
+text-align: center;
 color:var(--primary-bgd-color);
 }
 
@@ -100,36 +100,52 @@ cursor: pointer;
     color:var(--primary-bgd-color);
     background-color:var(--accent-filter-color);
 }
-.section1-h3
-.team-name{
+.features-title{
 font-size: 20px;
 font-weight: 600;
 line-height: 1.2;
 letter-spacing: 0.02em;
+color:var(--primary-font-color);
 }
 
-.section1-description{
+.features-text{
 font-size: 16px;
 line-height: 1,5;
 letter-spacing: 0.02em;
 color:var(--secondary-font-color)
 }
 
-.section2-h2
-.h2-team
-.portfolio-title{
+.doing-title{
 font-size: 36px;
 font-weight: 600;
-line-height: 1,11;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
+color:var(--primary-font-color);
+}
+
+.team-title{
+ font-size: 36px;
+font-weight: 600;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color:var(--primary-font-color);   
+}
+
+.team-name{
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: center;
+color:var(--primary-font-color);
 }
 
 
-
-.team-name-description{
+.team-position{
 font-size: 16px;
-line-height: 1,5;
+line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color:var(--secondary-font-color);
@@ -147,9 +163,10 @@ line-height: 1.33;
 letter-spacing: 0.03em;
 color:var(--dark-logo-color)
 }
-.footer-descript{
+
+.footer-text{
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 color:var(--filter-btn-color);
 }
@@ -176,11 +193,18 @@ cursor: pointer;
     background-color:var(--accent-filter-color);
 }
 
+.portfolio-title{
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color:var(--primary-font-color);
+}
 
 
 .portfolio-item-text{
 font-size: 16px;
-line-height: 1,5;
+line-height: 1.5;
 letter-spacing: 0.02em;
 color:var(--secondary-font-color)
 }
